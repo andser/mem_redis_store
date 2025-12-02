@@ -1,0 +1,56 @@
+PATH
+  remote: .
+  specs:
+    mem_redis_store (0.1.0)
+      activesupport (~> 6.0)
+      redis (>= 4.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.1.7.10)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    concurrent-ruby (1.3.5)
+    connection_pool (2.5.5)
+    diff-lcs (1.6.2)
+    i18n (1.14.7)
+      concurrent-ruby (~> 1.0)
+    minitest (5.26.2)
+    mock_redis (0.53.0)
+      redis (~> 5)
+    redis (5.4.1)
+      redis-client (>= 0.22.0)
+    redis-client (0.26.1)
+      connection_pool
+    rspec (3.13.2)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.7)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.6)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    zeitwerk (2.7.3)
+
+PLATFORMS
+  ruby
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  mem_redis_store!
+  mock_redis (~> 0.30)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   2.6.3
