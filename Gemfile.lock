@@ -20,8 +20,7 @@ GEM
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     minitest (5.25.5)
-    mock_redis (0.53.0)
-      redis (~> 5)
+    mock_redis (0.41.0)
     redis (5.4.1)
       redis-client (>= 0.22.0)
     redis-client (0.26.1)
@@ -44,14 +43,17 @@ GEM
     zeitwerk (2.6.18)
 
 PLATFORMS
-  x86_64-linux-gnu
+  ruby
 
 DEPENDENCIES
   mem_redis_store!
   minitest (< 5.26)
-  mock_redis (~> 0.30)
+  mock_redis (< 0.53)
   rspec (~> 3.0)
   zeitwerk (< 2.7)
 
+RUBY VERSION
+   ruby 2.7.8p225
+
 BUNDLED WITH
-   2.4.22
+   2.1.4
