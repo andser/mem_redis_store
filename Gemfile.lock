@@ -41,7 +41,7 @@ GEM
     rspec-support (3.13.6)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    zeitwerk (2.7.3)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   x86_64-linux-gnu
@@ -51,6 +51,7 @@ DEPENDENCIES
   minitest (< 5.26)
   mock_redis (~> 0.30)
   rspec (~> 3.0)
+  zeitwerk (< 2.7)
 
 BUNDLED WITH
    2.4.22
